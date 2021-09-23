@@ -4,9 +4,7 @@
 //If they win - say that they won
 
 function guessGame() {
-	let randomNr = Math.random() * 11;
-	let fixedNr = Math.floor(randomNr);
-	console.log(fixedNr);
+	let randomNr = Math.floor(Math.random() * 11);
 }
 
 guessGame();
